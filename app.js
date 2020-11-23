@@ -10,13 +10,19 @@ const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rho
 
 const app = express();
 const port = 3000;
+
+let posts = [];
+
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.get("/", function(req, res) {
-    res.render("home", { startingContent: homeStartingContent });
+    res.render("home", {
+        startingContent: homeStartingContent,
+        posts: posts
+    });
 })
 
 app.get("/about", function(req, res) {
@@ -31,8 +37,31 @@ app.get("/compose", function(req, res) {
     res.render("compose");
 })
 
+app.get("/posts/:postName", function(req, res) {
+    const requestedTitle = req.params.postName;
+
+    posts.forEach(function(post) {
+        const storedTite = post.title;
+        if (requestedTitle === storedTite) {
+            console.log('Match found');
+        } else {
+            console.log('different');
+        }
+    });
+
+})
+
 app.post("/compose", function(req, res) {
-    console.log(req.body.postTitle);
+
+    const post = {
+        title: req.body.postTitle,
+        content: req.body.postBody,
+    };
+
+    posts.push(post);
+
+    res.redirect("/");
+
 })
 
 app.listen(port, function() {
