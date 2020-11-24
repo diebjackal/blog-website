@@ -14,6 +14,8 @@ const port = 3000;
 
 let posts = [];
 
+const lenght = 100;
+
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -44,6 +46,7 @@ app.get("/posts/:postName", function(req, res) {
     posts.forEach(function(post) {
         const storedTite = _.lowerCase(post.title);
         if (requestedTitle === storedTite) {
+
             res.render("post", {
                 title: post.title,
                 content: post.content,
