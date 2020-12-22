@@ -6,6 +6,7 @@ EJS와 mongoose, node JS를 이용해 간단한 블로그 웹 사이트를 제�
 ![meal](https://user-images.githubusercontent.com/55783877/102850118-023a7e80-445c-11eb-8633-177ba3a0c977.png)
 
 ## 이 사진은 블로그에 글을 적는 웹 페이지 입니다
+![compose](https://user-images.githubusercontent.com/55783877/102850550-1e8aeb00-445d-11eb-8448-4285d0990a2b.png)
 
 ![compose2](https://user-images.githubusercontent.com/55783877/102850456-e08dc700-445c-11eb-8e4c-8e9135694b70.png)
 
