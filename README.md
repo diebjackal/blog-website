@@ -8,8 +8,7 @@
 3. 글의 길이가 길 경우 자세히 보기 기능이 있습니다.
 
 # 메인 페이지
-![메인 페이지](https://user-images.githubusercontent.com/55783877/109746432-b9036980-7c18-11eb-9940-65e62f336028.png)
-
+![메인 페이지](https://user-images.githubusercontent.com/55783877/109746784-4d6dcc00-7c19-11eb-8a42-8dfde2cae463.png)
 
 ![메인2](https://user-images.githubusercontent.com/55783877/109746436-ba349680-7c18-11eb-95f7-23ec750273f6.png)
 
