@@ -13,7 +13,7 @@
 ![메인2](https://user-images.githubusercontent.com/55783877/109746436-ba349680-7c18-11eb-95f7-23ec750273f6.png)
 
 # 글 작성 페이지
-![글쓰는 페이지](https://user-images.githubusercontent.com/55783877/109746442-bbfe5a00-7c18-11eb-937d-2e113cc98c3d.png)
+![글쓰는 페이지](https://user-images.githubusercontent.com/55783877/109747109-e7ce0f80-7c19-11eb-9bef-e4f034b70ad1.png)
 
 ![글쓰는 페이지2](https://user-images.githubusercontent.com/55783877/109746446-bdc81d80-7c18-11eb-944c-ecf3a70239a8.png)
 
