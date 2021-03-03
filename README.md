@@ -1,14 +1,23 @@
 # blog-website
 
-EJS와 mongoose, node JS를 이용해 간단한 블로그 웹 사이트를 제작했습니다,
+·EJS와 mongoose, node JS를 이용해 간단한 블로그 웹 사이트를 제작했습니다.
 
-## 이 사진은 기본적인 블로그 웹 페이지 입니다.
-![meal](https://user-images.githubusercontent.com/55783877/102850118-023a7e80-445c-11eb-8633-177ba3a0c977.png)
+# 기능
+1. 기본 적인 글 쓰기가 가능합니다.
+2. 글의 길이가 100자가 넘으면 뒤에 있는 글의 내용을 자세히 볼 수 있도록 하는 기능이 있습니다.
+3. 글의 길이가 길 경우 자세히 보기 기능이 있습니다.
 
-## 이 사진은 블로그에 글을 적는 웹 페이지 입니다
-![compose](https://user-images.githubusercontent.com/55783877/102850550-1e8aeb00-445d-11eb-8448-4285d0990a2b.png)
+# 메인 페이지
+![메인 페이지](https://user-images.githubusercontent.com/55783877/109746432-b9036980-7c18-11eb-9940-65e62f336028.png)
 
-![compose2](https://user-images.githubusercontent.com/55783877/102850456-e08dc700-445c-11eb-8e4c-8e9135694b70.png)
 
-## 이 사진은 Ream More 글씨를 누르면 글을 자세히 볼 수 있는 공간입니다
-![readMore](https://user-images.githubusercontent.com/55783877/102850170-1ed6b680-445c-11eb-9f84-2f0d189af167.png)
+![메인2](https://user-images.githubusercontent.com/55783877/109746436-ba349680-7c18-11eb-95f7-23ec750273f6.png)
+
+# 글 작성 페이지
+![글쓰는 페이지](https://user-images.githubusercontent.com/55783877/109746442-bbfe5a00-7c18-11eb-937d-2e113cc98c3d.png)
+
+![글쓰는 페이지2](https://user-images.githubusercontent.com/55783877/109746446-bdc81d80-7c18-11eb-944c-ecf3a70239a8.png)
+
+# 자세히 보기 페이지
+![자세히 보기](https://user-images.githubusercontent.com/55783877/109746591-f9fb7e00-7c18-11eb-9d60-6a97ca80b25f.png)
+
